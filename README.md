@@ -12,7 +12,7 @@ b.	URL: https://dsm.example.com:4119/api/computers/{computerID}/intrusionprevent
 Machine ID 5 {"assignedRuleIDs":[1,2,3,6,8,10,11,12,124,125,6664],"assignedApplicationTypeIDs":[81,84,143,157,212,297],"recommendationScanStatus":"none","recommendedToAssignRuleIDs":[],"recommendedToUnassignRuleIDs":[]}
 Machine ID 22 {"assignedRuleIDs":[1,2,3,6,8,12,6664],"assignedApplicationTypeIDs":[81,143,212,297],"recommendationScanStatus":"none","recommendedToAssignRuleIDs":[],"recommendedToUnassignRuleIDs":[]}
 <br>
-<br><b>Use-case 2:</b> Policy Intrusion Prevention Rules Assignment 
+<b>Use-case 2:</b> Policy Intrusion Prevention Rules Assignment 
 <b>Objective:</b> Assigning Intrusion Prevention Rule IDs to a policy
 1.	Trend Micro API used: 
 a.	HTTP Method: Post
