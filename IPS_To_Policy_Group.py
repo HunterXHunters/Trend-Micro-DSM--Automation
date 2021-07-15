@@ -1,11 +1,11 @@
 import requests
 
 headers = {
-	'api-secret-key': '7AF31EED-D12F-FE15-2FAF-F49552B093F3:70C71471-9AEE-ED71-3C5C-6133C627D9C8:hJfFVu0fc3NYuFiYdNfOUo8j2eCrG7pJtb6qK3miOa0=',
+	'api-secret-key': 'YOUR API KEY GOES HERE',
 	'api-version': 'v1', 'Content-Type': 'application/json', 'charset':'UTF-8'
 	}
 
-payload = {"ruleIDs": [21,22,23]}
+payload = {"ruleIDs": [21,22,23,......................,LIST OF RULE IDs]}
 #payload = open("rules_id.json")
 
 f = open('policy_id.txt', 'r')
