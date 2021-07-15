@@ -2,12 +2,12 @@ import requests
 
 #Authentication Header
 headers = {
-	'api-secret-key': 'DA26C635-BB1B-C97F-1421-465725518170:RWbN/9p+RONKEv3Kx6JTp77Do2/90cxTM8filwsuH3o=',
+	'api-secret-key': 'YOUR API KEY GOES HERE',
 	'api-version': 'v1', 'Content-Type': 'application/json', 'charset':'UTF-8'
 	}
 
 #DSM IPS Rule IDs
-rule_ids = {"ruleIDs": [3,12,25,45]}
+rule_ids = {"ruleIDs": [3,12,25,45,......................,LIST OF RULE IDs]}
 #payload = open("rules_id.json")
 
 #Looping List of Computer IDs to which above Rule IDs will get applied
